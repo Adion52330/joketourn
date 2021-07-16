@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JOKES TOURNAMENT</title>
+  </head>
+  <body>
+    <center>
+      <h1 id="h">Welcome</h1>
+    </center>
+    <center>
+      <nav>
+        <ul>
+          <li><a href="index.html">Tournament</a></li>
+          <li><a href="win.html">Winners</a></li>
+        </ul>
+      </nav>
+    </center>
+    <hr />
+    <center>
+      <ul>
+        <li><h3>Only one joke from one person shall be entertained</h3></li>
+        <li>
+          <h3>The joke must not be copied. Hammare paas bhi google hai.</h3>
+        </li>
+        <li>
+          <h3>This is just for fun.</h3>
+        </li>
+        <li>
+          <h3>Winners will be displayed at the winners page after 2 days.</h3>
+        </li>
+        <li>
+          <h3>
+            The tournament renews every week. That means everyone has a chance
+            to win.
+          </h3>
+        </li>
+        <li>
+          <h3>The tournament is available for 2 days only.</h3>
+        </li>
+      </ul>
+    </center>
+    <hr />
+    <center>
+      <form action="tourn.html">
+        <div class="frm-part">
+          <label>What should we call you?</label>
+          <input
+            type="text"
+            id="main_name"
+            required
+            name="NameOfPerson"
+            placeholder="Note: This will be displayed on the website"
+          />
+        </div>
+        <div class="frm-part">
+          <label>Your Joke:</label>
+          <textarea
+            name="Joke"
+            id="texter"
+            cols="30"
+            rows="5"
+            placeholder="Best of Luck"
+          ></textarea>
+        </div>
+        <div class="frm-part">
+          <input
+            type="submit"
+            id="jj"
+            onclick="col()"
+            value="Let's Go"
+            style="
+              border: 10px groove #27ae60;
+              color: #ecf0f1;
+              background-color: #34495e;
+            "
+          />
+        </div>
+      </form>
+    </center>
+  </body>
+  <script>
+    btn = document.getElementById("jj");
+    function col() {
+      btn.style.border = "10px ridge #27ae60";
+    }
+  </script>
+  <script src="script.js"></script>
+</html>

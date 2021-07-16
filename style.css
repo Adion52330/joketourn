@@ -1,0 +1,38 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+.frm-part{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+}
+
+.frm-part label{
+    font-weight: bold;
+    font-size: 2pc;
+    padding: 0 0 10px 0;
+}
+.frm-part input, .frm-part textarea{
+    padding: 10px;
+    font-size: 1.5pc;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#h{
+    background-color: aqua;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+nav ul {
+   list-style: none;
+}
+nav ul li a{
+    color: purple;
+    font-weight: bolder;
+    text-decoration: none;
+}
